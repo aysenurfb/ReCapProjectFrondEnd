@@ -4,22 +4,16 @@
 <table class="table">
     <thead>
         <tr>
-            <th>Id</th>
-            <th>Marka Adı</th>
-            <th>Color Id</th>
-            <th>Model Yılı</th>
-            <th>Günlük Ücreti</th>
             <th>Araba Adı</th>
-            <th>Açıklama</th>
+            <th>Marka Adı</th>
+            <th>Rengi</th>
+            <th>Günlük Ücreti</th>
         </tr>
     </thead>
     <tr *ngFor="let car of cars">
-        <td>{{ car.CarId }}</td>
-        <td>{{ car.BrandId }}</td>
-        <td>{{ car.ColorId }}</td>
-        <td>{{ car.ModelYear }}</td>
-        <td>{{ car.DailyPrice }</td>
-        <td>{{ car.CarName }}</td>
-        <td>{{ car.Description }}</td>
+        <td>{{ car.carName }}</td>
+        <td>{{ car.brandName }}</td>
+        <td>{{ car.colorName }}</td>
+        <td>{{ car.dailyPrice }}</td>
     </tr>
 </table>
