@@ -1,1 +1,10 @@
-
+<table class="styled-table">
+    <thead>
+        <tr>
+            <th>Müşteri Adı</th>
+        </tr>
+    </thead>
+    <tr *ngFor="let customer of customers">
+        <td>{{ customer.customerName }}</td>
+    </tr>
+</table>
