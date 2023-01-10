@@ -1,1 +1,18 @@
-<p>rental works!</p>
+<table class="styled-table">
+    <thead>
+        <tr>
+            <th>Marka</th>
+            <th>isim</th>
+            <th>soyisim</th>
+            <th>kiralama tarihi</th>
+            <th>dönüş tarihi</th>
+        </tr>
+    </thead>
+    <tr *ngFor="let rental of rentals">
+        <td>{{ rental.brandName}}</td>
+        <td>{{ rental.firstName}}</td>
+        <td>{{ rental.lastName}}</td>
+        <td>{{ rental.rentDate}}</td>
+        <td>{{ rental.returnDate}}</td>
+    </tr>
+</table>
