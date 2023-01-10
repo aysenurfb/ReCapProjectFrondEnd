@@ -5,12 +5,11 @@
     font-family: sans-serif;
     min-width: 400px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-    margin-top: 200px;
-    margin-left: 450px;
+    margin-right: 250px;
 }
 
 .styled-table thead tr {
-    background-color: #009879;
+    background-color: #98003a;
     color: #ffffff;
     text-align: left;
 }
@@ -29,10 +28,10 @@
 }
 
 .styled-table tbody tr:last-of-type {
-    border-bottom: 2px solid #009879;
+    border-bottom: 2px solid #98003a;
 }
 
 .styled-table tbody tr.active-row {
     font-weight: bold;
-    color: #009879;
+    color: #98003a;
 }
