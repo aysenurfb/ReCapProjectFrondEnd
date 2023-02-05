@@ -7,7 +7,7 @@ import { CustomerComponent } from './components/customer/customer.component';
 import { RentalComponent } from './components/rental/rental.component';
 
 const routes: Routes = [
-  //{path:"",pathMatch:"full", component:CarComponent},
+  {path:"",pathMatch:"full", component:CarComponent},
   {path:"cars", component:CarComponent},
   {path:"cars/brand/:Id", component: CarComponent },
   {path:"colors", component:ColorComponent},
