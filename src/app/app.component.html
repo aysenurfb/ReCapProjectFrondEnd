@@ -1,7 +1,21 @@
 <div class="container">
   <app-nav></app-nav>
+
   <div class="row">
-    <router-outlet></router-outlet>
+    <div class="col-md-3">
+      <app-brand></app-brand>
+      <app-color></app-color>
+    </div>
+    <div class="col-md-9">
+      <router-outlet></router-outlet>
+    </div>
   </div>
+  <br><br><br><br><br>
+  <h4>Customers</h4>
+  <app-customer></app-customer>
+  <h4>Rentals</h4>
+  <app-rental></app-rental>
+
 </div>
+
 

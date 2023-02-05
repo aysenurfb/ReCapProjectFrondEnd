@@ -4,8 +4,10 @@
             <th>Marka Adı</th>
         </tr>
     </thead>
-    <tr *ngFor="let brand of brands">
-        <td>{{ brand.name }}</td>
-        <!--(click)="getCarsbyBrand(brand)" bu kısımda kaldım. once dersi tekrar et sonra kodlara bak netten -->
-    </tr>
+    <tbody>
+        <tr *ngFor="let brand of brands">
+            <td (click)="setCurrentBrand(brand)"  routerLink="/cars/brand/{{brand.Id}}">{{ brand.name }}</td>
+        </tr>
+    </tbody>
 </table>
+
