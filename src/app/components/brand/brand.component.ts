@@ -36,10 +36,7 @@ export class BrandComponent implements OnInit {
 
   setCurrentBrand(brand:Brand){
     this.currentBrand=brand;
-    console.log(brand.id) //undefined geliyor
-    
+    console.log(brand.id)
   }
-  
-
 }
 
