@@ -10,6 +10,7 @@ export class ColorComponent implements OnInit {
 
   currentColor:Color;
   colors:Color[]=[];
+  dataLoaded=false;
   constructor(private colorService:ColorService) { }
 
   ngOnInit(): void {
@@ -19,15 +20,17 @@ export class ColorComponent implements OnInit {
   getColors(){
     this.colorService.getColors().subscribe(response =>{
       this.colors = response.data;
+      this.dataLoaded=true;
     })
   }
 
   setCurrentColor(color: Color) {
     this.currentColor = color;
     console.log(color.ColorId);
+    //this.dataLoaded=true;
   }
 
-  getCurrentColorClass(color: Color): string {
+  getCurrentColorClass(color: Color) {
     if (color == this.currentColor) {
       return "list-group-item active";
     }
