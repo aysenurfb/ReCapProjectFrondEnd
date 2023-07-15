@@ -1,0 +1,13 @@
+section{
+    padding: 4rem 0 2rem;
+}
+.home{
+    max-width: 1300px;
+    margin: auto;
+    width: 100%;
+    min-height: 640px;
+    display: flex;
+    align-items: center;
+    background: url(imagees/Background-home.png);
+    
+}

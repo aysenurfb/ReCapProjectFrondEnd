@@ -9,7 +9,8 @@ a{
 }
 
 a:hover{
-    color: orange;
+    color: #d90429;
+    border-bottom: 3px solid #d90429;
 }
 
 header{
@@ -33,6 +34,7 @@ header{
 }
 
 .navbar .links{
+    margin-top: 20px;
     display: flex;
     gap: 2rem;
 } 
@@ -45,7 +47,7 @@ header{
 }
 
 .action_btn{
-    background-color: orange;
+    background-color: #d90429;
     color: #fff;
     padding: 0.5rem 1rem;
     border: none;

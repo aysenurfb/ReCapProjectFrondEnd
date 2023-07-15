@@ -1,0 +1,11 @@
+:root{
+    --main-color: #d90429;
+    --text-color: #020102;
+    --bg-color:#fff;
+}
+img{
+    width: 100%;
+}
+body{
+    color: var(--text-color);
+}
