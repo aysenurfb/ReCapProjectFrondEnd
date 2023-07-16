@@ -13,6 +13,7 @@ import { RentalComponent } from './components/rental/rental.component';
 import { CardetailComponent } from './components/cardetail/cardetail.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomepageComponent } from './components/homepage/homepage.component';
+import { AllinoneComponent } from './components/allinone/allinone.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { HomepageComponent } from './components/homepage/homepage.component';
     RentalComponent,
     CardetailComponent,
     FooterComponent,
-    HomepageComponent
+    HomepageComponent,
+    AllinoneComponent,
   ],
   imports: [
     BrowserModule,

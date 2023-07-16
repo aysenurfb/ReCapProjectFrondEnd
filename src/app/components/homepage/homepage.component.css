@@ -9,5 +9,58 @@ section{
     display: flex;
     align-items: center;
     background: url(imagees/Background-home.png);
-    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center left;
+}
+.home-text{
+    padding-left: 130px;
+}
+.home-text h1{
+    font-size: 2.4rem;
+}
+.home-text span{
+    color: #d90429
+}
+.home-text p{
+    font-size: 0.938rem;
+    font-weight: 300;
+    margin: 0.5rem 0 1.2rem;
+}
+
+.btn{
+    background-color: #d90429;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: scale 0.2 ease;
+}
+
+.btn:hover{
+    scale:1.05;
+    color:#fff;
+}
+
+.btn:active{
+    scale: 0.95;
+}
+
+@media only screen and (max-width: 1080px){
+    .container{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+@media only screen and (max-width: 991px){
+    .home-text{
+        padding-left: 2rem;
+    }
+    .home-text h1{
+        font-size: 2.1rem;
+    }
 }

@@ -6,10 +6,12 @@ import { ColorComponent } from './components/color/color.component';
 import { CustomerComponent } from './components/customer/customer.component';
 import { RentalComponent } from './components/rental/rental.component';
 import { HomepageComponent } from './components/homepage/homepage.component';
+import { AllinoneComponent } from './components/allinone/allinone.component';
 
 const routes: Routes = [
   {path:"",pathMatch:"full",component:HomepageComponent},
-  {path:"cars", component:CarComponent},
+  {path:"cars", component:AllinoneComponent},
+  //{path:"cars", component:CarComponent},
   {path:"cars/brand/:id", component: CarComponent },
   {path:"cars/color/:ColorId", component: CarComponent },
   {path:"colors", component:ColorComponent},

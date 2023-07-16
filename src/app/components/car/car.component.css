@@ -9,7 +9,7 @@
 }
 
 .styled-table thead tr {
-    background-color: #0fd1df;
+    background-color: #d90429;
     color: #ffffff;
     text-align: left;
 }
@@ -28,10 +28,10 @@
 }
 
 .styled-table tbody tr:last-of-type {
-    border-bottom: 2px solid #0fd1df;
+    border-bottom: 2px solid #d90429;
 }
 
 .styled-table tbody tr.active-row {
     font-weight: bold;
-    color: #0fd1df;
+    color: #d90429;
 }
