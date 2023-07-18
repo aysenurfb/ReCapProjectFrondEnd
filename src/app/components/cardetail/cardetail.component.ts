@@ -11,11 +11,13 @@ import { CardetailService} from 'src/app/services/cardetail.service';
 export class CardetailComponent implements OnInit {
 
   carDetails:CarDetail[]=[];
-  baseUrl="https://localhost:4200/Uploads/Images/";
+  baseUrl="https://localhost:4200/Images/";
   constructor(private carDetailService:CardetailService,
     private activatedRoute:ActivatedRoute) { }
 
   ngOnInit(): void {
+   
   }
 
+ 
 }
