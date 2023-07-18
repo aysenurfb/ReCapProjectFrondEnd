@@ -7,6 +7,7 @@ import { CustomerComponent } from './components/customer/customer.component';
 import { RentalComponent } from './components/rental/rental.component';
 import { HomepageComponent } from './components/homepage/homepage.component';
 import { AllinoneComponent } from './components/allinone/allinone.component';
+import { PagenotfoundComponent } from './components/pagenotfound/pagenotfound.component';
 
 const routes: Routes = [
   {path:"",pathMatch:"full",component:HomepageComponent},
@@ -18,6 +19,7 @@ const routes: Routes = [
   {path:"brands", component:BrandComponent},
   {path:"customers", component:CustomerComponent},
   {path:"rentals", component:RentalComponent},
+  { path: '**', pathMatch: 'full', component: PagenotfoundComponent },
 ];
 
 @NgModule({

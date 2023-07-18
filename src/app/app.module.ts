@@ -14,6 +14,7 @@ import { CardetailComponent } from './components/cardetail/cardetail.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomepageComponent } from './components/homepage/homepage.component';
 import { AllinoneComponent } from './components/allinone/allinone.component';
+import { PagenotfoundComponent } from './components/pagenotfound/pagenotfound.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { AllinoneComponent } from './components/allinone/allinone.component';
     FooterComponent,
     HomepageComponent,
     AllinoneComponent,
+    PagenotfoundComponent,
   ],
   imports: [
     BrowserModule,
